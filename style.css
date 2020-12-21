@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.wrapper{
+  background-color: #262626;
+  height: auto;
+}
+.liukin {
+	width: 100%;
+	text-align: center;
+	padding: 70px 0;
+}
+.logo{
+  width: 250px;
+  height: auto;
+  margin-right: 30px;
+}
+.liukin P {
+  color: #d0d0d0;
+  font-family: "Roboto",sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 90px
+}
+.countdown .back-text h4{
+    color: red;
+    background: red
+}
+#countdown {
+  margin-top: 75px;
+}
+.countDays{
+  position: relative;
+}
+.countDays::after{
+  position: absolute;
+  content: 'days';
+  color: #fff;
+  top: 0px;
+  left: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+.countHours{
+  position: relative;
+}
+.countHours::after {
+color: #fff;
+content: "hours";
+font-family: "Raleway",sans-serif;
+font-size: 20px;
+font-weight: 200;
+left: 2px;
+letter-spacing: 1px;
+position: absolute;
+top: 0;
+}
+.countMinutes{
+  position: relative;
+}
+.countMinutes::after{
+  position: absolute;
+  content: 'minutes';
+  color: #fff;
+  top: 0px;
+  left: -10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+.countSeconds{
+  position: relative;
+}
+.countSeconds::after{
+  position: absolute;
+  content: 'seconds';
+  color: #fff;
+  top: 0px;
+  left: -10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+.social-icon {
+	margin-top: 160px;
+	padding: 25px 0;
+}
+.icon {
+    width: 165px;
+    margin: 0px auto;
+}
+.icon i {
+  color: #fff;
+  font-size: 21px;
+  padding: 9px;
+  color: #008ec2;
+}
